@@ -1,4 +1,6 @@
-@forward './_new';
+//@forward 'new';
+@forward 'base/index';
+@use 'util/index' as util-index;
 
 /*variable declear withb $*/
 $paragraph-color: blue;
@@ -11,7 +13,7 @@ p {
 }
 
 nav {
-  background-color: rosybrown;
+  background-color: util-index.$header-bg-color;
   padding: 0.1px 0;
   ul {
     background-color: rgb(143, 218, 143);
