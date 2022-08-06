@@ -1,0 +1,28 @@
+@forward './_new';
+
+/*variable declear withb $*/
+$paragraph-color: blue;
+$para-bg-color: aliceblue;
+
+p {
+  color: $paragraph-color;
+  background-color: $para-bg-color;
+  font-family: Lato;
+}
+
+nav {
+  background-color: rosybrown;
+  padding: 0.1px 0;
+  ul {
+    background-color: rgb(143, 218, 143);
+    li {
+      display: inline;
+      padding: 0 30px;
+      background-color: rgb(84, 233, 183);
+    }
+    li:hover {
+      background-color: aliceblue;
+      cursor: pointer;
+    }
+  }
+}
